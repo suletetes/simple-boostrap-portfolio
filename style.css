@@ -5,26 +5,14 @@
 }
 
 
-.img-quote {
-    min-height: 500px;
-    max-width: 450px;
-    object-fit: cover;
-}
-
-
-.img-project {
-    min-height: 250px;
-    max-width: 450px;
-    object-fit: cover;
-}
-
-.progress-title{
+.progress-title {
     font-size: 18px;
     font-weight: 700;
     color: #1c2647;
     margin: 0 0 10px;
 }
-.progress{
+
+.progress {
     height: 30px;
     background: #fff;
     border-top: 5px solid #1c2647;
@@ -34,8 +22,9 @@
     overflow: visible;
     position: relative;
 }
+
 .progress:before,
-.progress:after{
+.progress:after {
     content: "";
     width: 5px;
     background: #1c2647;
@@ -44,21 +33,29 @@
     left: -5px;
     bottom: 0;
 }
-.progress:after{
+
+.progress:after {
     left: auto;
     right: -5px;
 }
-.progress .progress-bar{
+
+.progress .progress-bar {
     border: none;
     box-shadow: none;
-    -webkit-animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
-    animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
+    -webkit-animation: 2s linear 0s normal none infinite running progress-bar-stripes, animate-positive 1s;
+    animation: 2s linear 0s normal none infinite running progress-bar-stripes, animate-positive 1s;
 }
-@-webkit-keyframes animate-positive{
-    0%{ width: 0; }
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0;
+    }
 }
-@keyframes animate-positive{
-    0%{ width: 0; }
+
+@keyframes animate-positive {
+    0% {
+        width: 0;
+    }
 }
 
 
