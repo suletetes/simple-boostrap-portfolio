@@ -11,7 +11,7 @@
     <title>My Portfolio</title>
 </head>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-lg-top">
     <div class="container d-flex justify-content-between align-items-center">
         <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -21,10 +21,10 @@
         <div class="collapse navbar-collapse flex-grow-1" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto d-flex gap-md-3">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">About Me</a>
-                <a class="nav-link" href="#">Skills</a>
-                <a class="nav-link" href="#">Project</a>
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#about">About Me</a>
+                <a class="nav-link" href="#project">Project</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#contact">Contact</a>
                 <!--                <a class="nav-link disabled" aria-disabled="true">Disabled</a>-->
             </div>
         </div>
@@ -73,8 +73,8 @@
     </button>
 </div>
 
-<!--quote-->
-<div class="container-fluid mt-lg-5">
+<!--about - quote-->
+<div id="about" class="container-fluid mt-lg-5">
     <div class="row">
         <div class="col-12 col-lg-6">
             <div class="text-center">
@@ -102,7 +102,7 @@
 </div>
 
 <!--projects-->
-<div class="container-fluid mt-5">
+<div id="project" class="container-fluid mt-5">
     <div class="row text-center">
         <h1 class="display-5">Projects</h1></div>
 
@@ -169,7 +169,7 @@
 </div>
 
 <!--skills/progress-->
-<div class="container-fluid mt-5">
+<div id="skills" class="container-fluid mt-5">
     <div class="row justify-content-center">
         <div class="col-12 col-md-8">
             <h1 class="display-5 text-center mb-4">Skills</h1>
@@ -210,7 +210,7 @@
 </div>
 
 <!-- Contact Form -->
-<div class="container-fluid mt-5 mb-5">
+<div id="contact" class="container-fluid mt-5 mb-5">
     <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-6">
             <h1 class="display-5 text-center mb-4">Contact</h1>

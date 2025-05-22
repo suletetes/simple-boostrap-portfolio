@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* In a custom CSS file or inside a <style> tag in index.html */
 .carousel-img {
     max-height: 94vh;
